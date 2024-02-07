@@ -1,0 +1,10 @@
+/* Add this style to your QuizPage.css or SurveyPage.css */
+.quiz-container{
+   background-color: red;
+}
+
+.slider-value {
+    text-align: center;
+    margin-top: 10px;
+}
+

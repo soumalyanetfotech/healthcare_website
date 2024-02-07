@@ -1,0 +1,17 @@
+.nav-item-spacer {
+    margin-right: 10px;
+     /* Adjust this value to change the spacing */
+    
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    align-item:center;
+    
+  }
+
+  .logo{
+    margin-right:10vh;
+  }
+
+  

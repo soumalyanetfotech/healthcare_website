@@ -1,0 +1,263 @@
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero{
+    position: relative;
+    width: 1440px;
+height: 300px;
+flex-shrink: 0;
+opacity: 0.8;
+background: var(--Pink-Background, #F8E8E9);
+}
+
+.text h3{
+    /* background: var(--Pink-Background, #F8E8E9); */
+
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    color: var(--Dark-grey, #4E4949);
+
+/* Subtitle 40 bold */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+letter-spacing: 0.8px;
+align-self: stretch;
+}
+
+.text p{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    color: var(--Dark-grey, #4E4949);
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+letter-spacing: 0.4px;
+align-self: stretch;
+}
+
+.pays{
+width: 400px;
+height: 300px;
+flex-shrink: 0;
+position: absolute;
+right: 3%;
+top: 8%;
+}
+
+.pink{
+width: 1440px;
+height: 360px;
+flex-shrink: 0;
+position: relative;
+}
+
+.text1 h3{
+    top: 73%;
+   left: 40%;
+    position: absolute;
+    color: #4E4949;
+text-align: center;
+font-family: Poppins;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 27px; /* 75% */
+letter-spacing: 0.72px;
+}
+
+.text1 p{
+    top: 80%;
+    left: 40%;
+position: absolute;
+color: #4E4949;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%; /* 24px */
+letter-spacing: 0.4px;
+}
+
+.book_container{
+    position: absolute;
+    left: 13%;
+  top: 99%;
+
+    display: flex;
+padding: 200px 32px;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+border-radius: 40px;
+background: #FFF;
+width: 30%;
+box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.book_container h5{
+    position: absolute;
+    top: 2%;
+    color: var(--Dark-grey, #4E4949);
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+letter-spacing: 0.8px;
+
+}
+
+.text2 p{
+    margin-top: -3%;
+    position: absolute;
+    color: var(--Dark-grey, #4E4949);
+left: 35%;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 140%;
+letter-spacing: 0.48px;
+}
+
+.line{
+    width: 158px;
+height: 0.5px;
+background: #4E4949;
+position: absolute;
+margin-top: -5%;
+left: 27%;
+}
+
+
+.text2 h6{
+position: absolute;
+top: 45%;
+color: var(--Dark-grey, #4E4949);
+text-align: center;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 44.8px */
+letter-spacing: 0.64px;
+left: 31%;
+}
+
+.text3 p{
+    top: 55%;
+    position: absolute;
+    color: var(--Dark-grey, #4E4949);
+text-align: center;
+
+/* Body 20 Regular */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%; /* 28px */
+letter-spacing: 0.4px;
+left: 25%;
+}
+
+.line1{
+    width: 158px;
+height: 0.5px;
+background: #4E4949;
+position: absolute;
+margin-top: 60%;
+left: 22%;
+}
+
+
+
+.book_img{
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    left:32%;
+    position: absolute;
+    top: 15%;
+    /* justify-content: center; */
+}
+
+.book_name{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+.book_price p{
+    position: absolute;
+    top: 135%;
+}
+
+.book_price span{
+    position: absolute;
+    top: 70%;
+    
+    color: var(--Dark-grey, #4E4949);
+    /* justify-content: center; */
+/* text-align: center; */
+
+/* Subtitle 40 bold */
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 140%; /* 56px */
+letter-spacing: 0.8px;
+left: 35%;
+}
+
+.buy_btn{
+    position: absolute;
+    top: 85%;
+    
+    height: 50px;
+    
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+    
+    margin-top: 10px;
+
+    border-radius: 12px;
+background: var(--Darkest-green, #7CAE9E);
+display: flex;
+width: 140px;
+height: 50px;
+padding: 8px 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.paycontain{
+    margin-bottom: 35%;
+}
+
+
+
+

@@ -1,0 +1,46 @@
+.center {
+    position: fixed;
+    top: 80%;
+    right: 5%;
+    z-index: 99;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.pulse {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation: animate-pulse 3s linear infinite;
+    cursor: pointer
+}
+
+@keyframes animate-pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.7), 0 0 0 0 rgba(255, 109, 74, 0.7);
+    }
+
+    40% {
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 0 rgba(255, 109, 74, 0.7);
+    }
+
+    80% {
+        box-shadow: 0 0 0 50px rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(255, 109, 74, 0.0), 0 0 0 30px rgba(255, 109, 74, 0);
+    }
+
+}
+
+.chat_button {
+    position: fixed;
+    top: 50%;
+    right: 0.5%;
+    z-index: 99;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
